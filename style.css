@@ -1,0 +1,277 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  /* line-height: 1.5; */
+  -webkit-font-smoothing: antialiased;
+  font-family: "Hammersmith One", sans-serif;
+  overflow: visible;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+li {
+  list-style: none;
+  margin-left: 50px;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+.logo {
+  width: 10vw;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline-end: 4vw;
+  font-family: Lato;
+  font-size: 1em;
+  font-weight: 700;
+}
+ul :nth-child(5) {
+  border: 2px solid #646e7a;
+  padding-inline-start: 19px;
+  padding-inline-end: 12px;
+  padding-bottom: 10px;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 85vh;
+  margin-top: 10px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding-left: 20px;
+  line-height: 1.5;
+  width: 50vw;
+}
+.left-container {
+  margin-right: 80px;
+}
+.flex-item {
+  margin-bottom: 30px;
+}
+label,
+input {
+  display: block;
+  font: lato;
+}
+input {
+  text-decoration: #edeff2;
+  background: #edeff2;
+  border: none;
+}
+.form-1 {
+  display: flex;
+  margin-right: 100px;
+}
+.form-1 input {
+  width: 90%;
+}
+.form-input {
+  margin-right: 100px;
+}
+.container-1-footer {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.container-1-footer img {
+  margin-right: 10px;
+}
+.stripe-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container-2 {
+  margin-right: 100px;
+  margin-left: -19vw;
+  width: 20vw;
+  background-color: #1179bf;
+}
+.right-container {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 60px;
+  width: 15vw;
+  line-height: 2;
+  color: #ffffff;
+}
+.checkbox-img {
+  display: flex;
+  margin-bottom: 4px;
+}
+.checkbox-img img {
+  margin-right: 10px;
+}
+.author {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+.author img {
+  margin-right: 10px;
+}
+h1 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 15px;
+}
+body {
+  background: #f5f8fa;
+  font-family: "Hammersmith One", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+.number {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #548bc5;
+  display: inline-block;
+  border-radius: 100%;
+  text-align: center;
+  color: #548bc5;
+  padding-bottom: 20px;
+}
+h4 {
+  font: lato;
+}
+.author-section {
+  padding-top: 10px;
+  border-top: solid #ffffff;
+}
+h2 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.renew-p {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.checkbox-img p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 2;
+  text-align: left;
+  color: #ffffff;
+}
+.flex-item p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+sup {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 17px;
+  left: -19px;
+}
+.amount {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.email-form input {
+  width: 95%;
+}
+.amount-p {
+  font-size: 3rem;
+  position: relative;
+  left: 15px;
+}
+.footer {
+  text-align: center;
+}
+.support-p {
+  text-decoration: #1d2c3c;
+  font-family: lato;
+}
+.terms {
+  color: #31708f;
+}
+.footer {
+  color: #636b6f;
+}
+button {
+  width: 95%;
+  background-color: #038e7d;
+  color: #ffffff;
+  padding: 10px;
+  font: lato;
+}
+.credit-card {
+  width: 95%;
+}
+.credit-card-group {
+  position: relative;
+  width: 95%;
+}
+.credit-card-group input {
+  width: 100%;
+}
+
+.card-expiration {
+  position: absolute;
+  left: 30vw;
+  bottom: 2px;
+}
+.card-cvv {
+  position: absolute;
+  left: 35vw;
+  bottom: 2px;
+}
+.credit-card-group label {
+  position: absolute;
+}
